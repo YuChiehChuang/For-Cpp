@@ -1,5 +1,5 @@
 //question:https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/
-
+//看無 已放棄
 bool compare(pair<int, int> a, pair<int, int> b){  //pair
     return (a.second == b.second)? a.first < b.first:a.second < b.second;
 };
